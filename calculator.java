@@ -46,6 +46,17 @@ class Calculator{
         return(operand_1 / operand_2);
     }
 
+    /**
+     * The function "square" takes a float number as input and returns the square of that number.
+     * 
+     * @param operand_1 A float value representing the operand to be squared.
+     * @return the square of the operand_1 value.
+     */
+    float square(float operand_1){
+        return(operand_1 * operand_1);
+    }
+
+
     // The line `public static void main(String[] args){` is the main method in Java. It is the entry
     // point of the program and is where the program starts executing. The `main` method is a special
     // method that is required in every Java program. It is declared as `public` so that it can be
@@ -71,6 +82,10 @@ class Calculator{
 
         float div_result=calc.division(operand_1,operand_2);
         System.out.println("result is" +div_result);
+
+        float squ_result=calc.square(operand_1);
+        System.out.println("result is" +squ_result);
+
 
     }
 }

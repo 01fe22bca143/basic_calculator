@@ -71,6 +71,7 @@ class Calculator{
         // The code `float add_result=calc.addition(operand_1,operand_2);` is calling the `addition`
         // method of the `Calculator` class and passing `operand_1` and `operand_2` as arguments. It
         // assigns the returned value to the variable `add_result`, which is of type `float`.
+        //5+6
         float add_result=calc.addition(operand_1,operand_2);
         System.out.println("result is" +add_result);
 
